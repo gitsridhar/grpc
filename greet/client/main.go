@@ -25,4 +25,6 @@ func main() {
 
 	doGreetManyTimes(c)
 
+	doLongGreet(c)
+
 }
