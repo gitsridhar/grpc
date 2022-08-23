@@ -30,5 +30,5 @@ func doSqrt(c pb.CalculatorServiceClient, n int32) {
 		}
 	}
 
-	log.Printf("Sqrt: %ld\n", res.Result)
+	log.Printf("Sqrt: %f\n", res.Result)
 }
